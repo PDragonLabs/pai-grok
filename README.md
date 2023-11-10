@@ -36,12 +36,13 @@ The word "grok" is also used in a variety of other contexts, such as education, 
 Overall
 
 The word "grok" is a versatile and powerful word that can be used to describe a variety of things. It is a word that is full of meaning, and it can help us to better understand the world around us and ourselves.
-profile picture
+ 
 
 -------------------------------------------------------------------------------------
  
 
 Here's an outline of a prototype full web app for social media with video, text and sound:
+
 Home page
 
     Homepage feed: A list of the latest posts from the user's friends and followed accounts. This list can include posts with video, text, and sound.
@@ -88,9 +89,13 @@ A variety of prototyping tools can be used to create a prototype of the web app,
     Adobe XD: A desktop prototyping tool that allows users to create high-fidelity mockups and interactive prototypes of user interfaces.
 
 Once the prototype is complete, it can be used to gather feedback from users and to make necessary changes before developing the full web app.
-profile picture
-now add a token tipping system in for artists
-View other drafts
+ 
+
+-----------------------------------------------------------------------------
+
+ 
+*most important
+ 
 
 To add a token tipping system to the prototype web app, the following features can be added:
 
@@ -114,3 +119,34 @@ Here is an example of how the token tipping system could be used:
     The creator receives a notification that they have received a tip.
 
 The token tipping system would allow users to show their appreciation for the content that creators produce, and it would also allow creators to monetize their content in a new way.
+
+----------------------------------------------------------------------------------
+
+
+To add a routine to unlock certain posts and keep track of the unlocks, the following features can be added to the prototype web app:
+
+    Locked posts: Creators would be able to lock certain posts, requiring users to complete certain tasks in order to unlock them.
+    Unlock tasks: Creators would be able to specify the tasks that users must complete in order to unlock a locked post. These tasks could include things like following the creator, sharing the post, or watching a video.
+    Unlock tracking: The app would track which posts users have unlocked. This would allow users to see which posts they have unlocked and which posts are still locked.
+
+Here is an example of how the lock and unlock routine could be used:
+
+    A creator creates a new post and locks it.
+    The creator specifies the unlock tasks for the post. For example, the creator might specify that users must follow them and share the post in order to unlock it.
+    A user sees the locked post and clicks on it.
+    The user is prompted to complete the unlock tasks in order to view the post.
+    The user completes the unlock tasks.
+    The post is unlocked and the user is able to view it.
+    The app tracks the post as unlocked for the user.
+
+The lock and unlock routine would allow creators to offer exclusive content to their fans and followers. It would also allow them to encourage users to engage with their content in new ways.
+
+Here is a possible implementation of the lock and unlock routine:
+
+    The app would store a list of all locked posts and the unlock tasks for each post in a database.
+    When a user tries to view a locked post, the app would check the database to see if the user has completed the unlock tasks for that post.
+    If the user has completed the unlock tasks, the app would unlock the post and allow the user to view it.
+    If the user has not completed the unlock tasks, the app would prompt the user to do so.
+
+The app could also keep track of the number of times each post has been unlocked and display this information to the creator. This information could be used by the creator to gauge the popularity of their content and to make decisions about future content creation.
+
