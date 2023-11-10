@@ -1,14 +1,12 @@
 <div align="center"> 
   
-[![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=social)](https://github.com/tmgthb/Autonomous-Agents/stargazers) 
-[![Twitter Follow](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
 
 </div>  
 
 
 # Autonomous-Agents
 
-Autonomous Agents (LLMs) research papers. Updated daily.   
+Autonomous Agents (LLMs) research papers. 
 
 ---
 
